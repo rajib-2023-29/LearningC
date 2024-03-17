@@ -1,17 +1,9 @@
-//Printing a number
-//In the last problem we saw how to print a number. Now it's your turn to print another number.
-
-//Your task is to print the number 20 on the screen.
-
-//In the editor, I have written some code for you. But instead of number 20, __ (underscores) are written.
-
-//Delete those underscores and write 20 at that place to complete the code.
+//Try to add 21 and 40 in code and print the result. Remember, we don't need "" (double quotes) when printing numbers.
 
 #include <stdio.h>
 
 int main() {
-  
-  // Delete __ (underscore) and add 20 at it's place
-  printf("%d", 20);
+  int a = 21 + 40;
+  printf ("%d",a);
   return 0;
 }
