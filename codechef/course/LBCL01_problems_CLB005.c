@@ -1,10 +1,13 @@
 #include<stdio.h>
-//area of square
+//sum of two int value
 int main(){
-    int side;
-    printf ("enter side");
-    scanf ("%d",&side);
-    int area=side*side;
-printf ("area is;%d",area);
-return 0;
+    int a;
+    printf ("enter a");
+    scanf ("%d",&a);
+    int b;
+    printf ("enter b");
+    scanf ("%d",&b);
+   int sum = a+b;
+    printf ("%d",sum);
+    return 0;
 }
