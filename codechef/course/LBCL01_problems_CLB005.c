@@ -1,13 +1,14 @@
+//Input Format
+//The only line of input contains a single integer.
+
+//Output Format
+//Output the answer in a single line.
+
 #include<stdio.h>
-//sum of two int value
-int main(){
-    int a;
-    printf ("enter a");
-    scanf ("%d",&a);
-    int b;
-    printf ("enter b");
-    scanf ("%d",&b);
-   int sum = a+b;
-    printf ("%d",sum);
+
+int main (){
+    int N;
+    scanf("%d",&N);
+    printf("%d",N);
     return 0;
 }
